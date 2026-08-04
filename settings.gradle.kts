@@ -19,6 +19,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // AndroidX XR snapshot repository
+        maven { url = uri("https://androidx.dev/storage") }
     }
 }
 

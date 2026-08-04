@@ -5,59 +5,44 @@ build/
 target/
 
 # Dependencies
-libs.versions.toml.lockfile
+.libs.versions.toml.lockfile
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
 
 # Logs
 *.log
 
-# IDE
-.idea/
-.vscode/
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
 
 # Environment
 .env
 .env.local
-*.env.*
+*.env*
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
 
 # Coverage
 .coverage
 coverage/
 htmlcov/
 
-# Python
+# Python (if applicable)
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
-
-# Node
-node_modules/
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-
-# Compressed
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
+.PyCharmCache
 ```
