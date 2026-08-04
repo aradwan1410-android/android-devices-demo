@@ -1,5 +1,63 @@
 ```
+# Gradle
 .gradle/
 build/
+target/
+
+# Dependencies
+libs.versions.toml.lockfile
+
+# Logs
 *.log
+
+# IDE
+.idea/
+.vscode/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Node
+node_modules/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Compressed
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
 ```
