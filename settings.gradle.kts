@@ -26,4 +26,7 @@ rootProject.name = "AndroidDemo"
 include(":mobile")
 include(":automotive")
 include(":shared")
+include(":tv")
+include(":wear")
+include(":xr")
  

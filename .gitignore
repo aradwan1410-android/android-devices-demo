@@ -1,15 +1,46 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+```
+# Android build outputs
+build/
+.gradle/
+*/build/
+
+# APK and AAB files
+*.apk
+*.aab
+
+# Proguard/Dexguard output
+proguard/
+shrinked/
+obfuscated/
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Android Studio generated files
+captures/
+*.hprof
+
+# IntelliJ IDEA artifacts
+*.iml
+*.iws
+.idea/
+
+# Gradle cache
+.gradle/
+
+# Log Files
+*.log
+
+# Generated files
+gen/
+generated/
+
+# Keystore files
+*.keystore
+*.jks
+
+# Android Wear specific
+wear/build/
+tv/build/
+xr/build/
+```
