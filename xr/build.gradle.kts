@@ -38,9 +38,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.sceneform)
     implementation(libs.arcore)
+    implementation(libs.androidx.xr.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
-    implementation("androidx.xr.core:core:1.0.0-alpha05") // Check latest version
 
 }
