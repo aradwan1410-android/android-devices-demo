@@ -1,46 +1,36 @@
 ```
-# Android build outputs
+# Gradle
+.gradle/
 build/
-.gradle/
-*/build/
+!build.gradle.kts
 
-# APK and AAB files
-*.apk
-*.aab
+# Dependencies
+.libs/
+lib/
 
-# Proguard/Dexguard output
-proguard/
-shrinked/
-obfuscated/
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Android Studio generated files
-captures/
-*.hprof
-
-# IntelliJ IDEA artifacts
-*.iml
-*.iws
-.idea/
-
-# Gradle cache
-.gradle/
-
-# Log Files
+# Logs
 *.log
 
-# Generated files
-gen/
-generated/
+# Environment
+.env
+.env.local
+*.env.*
 
-# Keystore files
-*.keystore
-*.jks
+# Editors
+.idea/
+*.swp
+*.swo
 
-# Android Wear specific
-wear/build/
-tv/build/
-xr/build/
+# OS
+.DS_Store
+Thumbs.db
 ```
