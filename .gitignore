@@ -2,35 +2,46 @@
 # Gradle
 .gradle/
 build/
-!build.gradle.kts
 
 # Dependencies
 .libs/
 lib/
 
-# Compiled files
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.tar
-*.tar.gz
-
 # Logs
 *.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.idea/
+.vscode/
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.idea/
-*.swp
-*.swo
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
 
-# OS
+# Node.js (if applicable)
+node_modules/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System
 .DS_Store
 Thumbs.db
 ```
