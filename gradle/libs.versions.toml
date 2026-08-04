@@ -29,6 +29,7 @@ androidx-car-app = { group = "androidx.car.app", name = "car-app", version.ref =
 androidx-leanback = { group = "androidx.tvprovider", name = "tvprovider", version.ref = "leanback" }
 androidx-wear = { group = "androidx.wear", name = "wear", version.ref = "wearOs" }
 sceneform = { group = "com.gorisse.thomas.sceneform", name = "sceneform", version = "1.20.5" }
+arcore = { group = "com.google.ar", name = "core", version.ref = "arCore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
