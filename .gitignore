@@ -1,31 +1,59 @@
 ```
-# Build artifacts
+# Build system
+.gradle/
 build/
 target/
 
 # Dependencies
-.gradle/
 node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
+lib/
+vendor/
 
-# Logs and temp files
-*.log
-*.tmp
+# IDE
+.vscode/
+.idea/
 *.swp
+*.swo
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
 
-# OS
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.hprof
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
 ```
