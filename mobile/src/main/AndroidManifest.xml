@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDemo">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".JourneyCompanionApp"
+            android:exported="true"
+            android:theme="@style/Theme.AndroidDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
