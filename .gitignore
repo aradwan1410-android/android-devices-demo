@@ -1,59 +1,5 @@
 ```
-# Build system
 .gradle/
 build/
-target/
-
-# Dependencies
-node_modules/
-lib/
-vendor/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.venv/
-venv/
-.Python
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-*.hprof
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.temp
-*~
-.#*
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
 ```
